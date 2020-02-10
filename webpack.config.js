@@ -11,7 +11,7 @@ const serverOutFile = 'server.js';
 const clientEntry = path.resolve(__dirname, 'src/client/index.tsx');
 const clientOutput = path.resolve(__dirname, './dist/client');
 const clientOutFile = 'client.js';
-const clientTitle = 'World Sweeper';
+const clientTitle = '[YOUR_APP_TITLE]';
 const clientTemplate = path.resolve(__dirname, 'src/client/index.html');
 
 const frontend = {
