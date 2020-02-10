@@ -2,16 +2,16 @@
 
 ## What Is It?
 
-FinalForm is my boilerplate repo for my prefered tech stack, greatly simplifying getting a new project off the ground. The stack it includes is as follows:
-### Tools
+FinalForm is my boilerplate repo for my prefered tech stack, greatly simplifying getting a new project off the ground. The technologies it includes is as follows:
+#### Dev
 - Webpack + Babel
 - ESLint + airbnb + prettier
 - Typescript
-### Front-End
+#### Front-End
 - React
 - Redux
 - Sass
-### Back-End
+#### Back-End
 - Express
 
 ## Features
@@ -23,7 +23,16 @@ The repo contains eslint, babel, and prettier settings directly in the package.j
 1. Create a completely blank new repo on your github (no readme or license)
 2. Navigate to your desired destination directory
 3. Run the following command in the terminal from the directory, replacing the placeholder with the url of your newly created repo:
+
 ``` git clone --bare https://github.com/Gabe-Lee/final-form.git && cd final-form.git && git push --mirror [YOUR_BRAND_NEW_REPO_URL] && cd .. && rm -rf final-form.git```
+
 4. You can now clone down your new repo from github as you normally would
-5. run ```npm install``` or ```yarn install```
+5. run
+
+```npm install```
+
+or
+
+```yarn install``` 
+
 6. Enjoy
